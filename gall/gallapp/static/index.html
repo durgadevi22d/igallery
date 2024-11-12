@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1>Virat Kholi's Batting Style</h1>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery Grid</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="gallery">
+  <img src="img 1.jpg" alt="Photo 1" onclick="openLightbox(this)">
+  <img src="img 2.jpg" alt="Photo 2" onclick="openLightbox(this)">
+  <img src="img 3.jpg" alt="Photo 3" onclick="openLightbox(this)">
+  <img src="img 4.jpg" alt="Photo 4" onclick="openLightbox(this)">
+  <img src="img 5.jpg" alt="Photo 5" onclick="openLightbox(this)">
+  <img src="img 6.jpg" alt="Photo 6" onclick="openLightbox(this)">
+  
+</div>
+
+<div id="lightbox" class="lightbox">
+  <span onclick="closeLightbox()" class="close">&times;</span>
+  <img id="lightboxImage" class="lightbox-content">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
